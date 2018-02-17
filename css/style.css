@@ -1,0 +1,185 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: #FFF;
+}
+
+label{
+    color: #FFF;
+}
+
+a{
+    color:#fd89ed;
+    text-decoration: none;
+}
+
+iframe{
+    border:0;
+}
+.list a.folder{
+    display: inline-block;
+    min-width: 90px;
+    height: 100px;
+    background: #ff9b4e;
+    margin: 20px;
+    padding: 5px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+}
+
+
+.list img{
+    /*width: 10%;*/
+}
+
+.list.tags .folder{
+    background: #f382df;
+    min-width: 88px;
+    height: 49px;
+    margin: 5px;
+    padding: 0 5px;
+    padding-top: 0px;
+    padding-top: 13px;
+}
+
+#iferlay{
+    width: 100%;
+    height: 90%;
+}
+
+@media only screen and (min-width : 400px) {
+    .show-body img{
+        max-height: 100vh !important;
+        position: fixed;
+        top: 0;
+    }
+    .show-body img:before{
+        content:" ";
+        position: absolute;
+        top:0;
+        left:0;
+        height: 100%;
+        width: 100%;
+        background: black;
+    }
+}
+
+input[name="cbx-iferlay"]{
+    /*display: none;*/
+}
+
+input[name="cbx-iferlay"]:checked + iframe{
+    display: none;
+}
+
+input[name="bigger"]{vertical-align: top;}
+
+
+
+input[name="bigger"]:checked ~ div.watch iframe{
+    display: block;
+    background: #000;
+    border: none;
+    height: 100vh !important;
+    width: 100vw !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+input[name="bigger"]:checked ~ div.watch{
+    position: static !important;
+    border: 1px solid red;
+}
+
+#bigger{
+    z-index: 10000;
+    position: fixed;
+    width: 0;
+    right: 0;
+    background: white;
+}
+
+body > .list{
+    display: inline-block;
+    /*width: 60%;*/
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#watch{
+    display: inline-block;
+    position: fixed;
+    width: 39%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    max-width: 399px;/* in accordance with .show-body img:before*/
+}
+/*navigator*/
+#navigator{
+    display: inline-block;
+    position: fixed;
+    width: 39%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #d101b5;
+    display: none;
+    top:0;
+    right:0;
+}
+input[name="navshow"]:checked ~ #navigator{
+    display: block;
+    /*position: static !important;*/
+    /*border: 1px solid red;*/
+}
+
+input[name="navshow"]:checked ~ div#navigator iframe{
+    /*    display: block;
+        background: #000;
+        border: none;
+        position: fixed;
+        top: 0;
+        left: 0;*/
+}
+input[name="navshow"]:checked ~ div#navigator iframe img{
+    /*max-height: 100%;*/
+}
+
+
+
+
+#preview image{
+    width: 100%;
+}
+
+.iframed a{
+    display: inline-block;
+    margin: 2px 2px 2px 0;
+    background: blueviolet;
+    color: white;
+    padding: 2px;
+}
+.iframed a:hover{
+    background: #f382df;
+}
+
+.return{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: 100px;
+    background: #fd89ed;
+    opacity: 0.7;
+    color:#d101b5;
+    text-align: center;
+}
+
+.return:hover{
+    opacity: 1;
+}

@@ -1,0 +1,180 @@
+[
+    {
+        "name": "imangazaliev/didom",
+        "version": "1.12",
+        "version_normalized": "1.12.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Imangazaliev/DiDOM.git",
+            "reference": "03f2daaa0a95ecf04c0cf1d56b22ca309f1f1558"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Imangazaliev/DiDOM/zipball/03f2daaa0a95ecf04c0cf1d56b22ca309f1f1558",
+            "reference": "03f2daaa0a95ecf04c0cf1d56b22ca309f1f1558",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8"
+        },
+        "time": "2017-08-28T02:25:34+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "DiDom\\": "src/DiDom/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Imangazaliev Muhammad",
+                "email": "imangazalievm@gmail.com"
+            }
+        ],
+        "description": "Simple and fast HTML parser",
+        "homepage": "https://github.com/Imangazaliev/DiDOM",
+        "keywords": [
+            "didom",
+            "html",
+            "parser",
+            "xml"
+        ]
+    },
+    {
+        "name": "bramus/router",
+        "version": "1.1",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bramus/router.git",
+            "reference": "7fcdede2846b59f4e812833032e579b1705ea375"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bramus/router/zipball/7fcdede2846b59f4e812833032e579b1705ea375",
+            "reference": "7fcdede2846b59f4e812833032e579b1705ea375",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/php-code-coverage": "~1.2",
+            "phpunit/phpunit": "~3.7"
+        },
+        "time": "2016-05-26T19:40:20+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Bramus": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Bram(us) Van Damme",
+                "email": "bramus@bram.us",
+                "homepage": "http://www.bram.us"
+            }
+        ],
+        "description": "A lightweight and simple object oriented PHP Router",
+        "homepage": "https://github.com/bramus/router",
+        "keywords": [
+            "router",
+            "routing"
+        ]
+    },
+    {
+        "name": "joannesource/iframous",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/joannesource/iframous.git",
+            "reference": "d4dbab82d858bf5d9c6836b05bcb1d4da39bce1b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/joannesource/iframous/zipball/d4dbab82d858bf5d9c6836b05bcb1d4da39bce1b",
+            "reference": "d4dbab82d858bf5d9c6836b05bcb1d4da39bce1b",
+            "shasum": ""
+        },
+        "require": {
+            "bramus/router": "~1.0",
+            "imangazaliev/didom": "^1.12"
+        },
+        "time": "2017-09-17T21:01:04+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Iframous\\": "src/Iframous/"
+            }
+        },
+        "description": "PHP iframe components library",
+        "support": {
+            "source": "https://github.com/joannesource/iframous/tree/master",
+            "issues": "https://github.com/joannesource/iframous/issues"
+        }
+    },
+    {
+        "name": "masterexploder/phpthumb",
+        "version": "2.1",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/masterexploder/PHPThumb.git",
+            "reference": "01f6aa65aa3d136e175f67da2b4ea3e316770d02"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/masterexploder/PHPThumb/zipball/01f6aa65aa3d136e175f67da2b4ea3e316770d02",
+            "reference": "01f6aa65aa3d136e175f67da2b4ea3e316770d02",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-09-08T22:55:44+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "PHPThumb": "src",
+                "PHPThumb\\Tests": "tests"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jarrod Nettles",
+                "email": "jarrod.nettles@icloud.com"
+            },
+            {
+                "name": "Ian Selby",
+                "email": "ian@gxdlabs.com"
+            }
+        ],
+        "description": "A library for manipulating images in PHP.",
+        "homepage": "https://github.com/masterexploder/PHPThumb",
+        "keywords": [
+            "image",
+            "resize",
+            "rotate"
+        ]
+    }
+]

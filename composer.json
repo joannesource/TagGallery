@@ -1,0 +1,20 @@
+{
+    "name": "joannesource/TagGallery",
+    "description": "PHP Image gallery with tagging feature",
+    "type": "gallery",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/joannesource/iframous"
+        }
+    ],
+    "require": {
+        "joannesource/iframous": "dev-master",
+        "masterexploder/phpthumb": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TagGallery\\": "src/TagGallery/"
+        }
+    }
+}
